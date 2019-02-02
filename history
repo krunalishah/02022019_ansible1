@@ -1,0 +1,110 @@
+
+-rw-------. 1 root root 1671 Feb  2 10:28 server1.pem
+[root@ip-172-31-38-131 .ssh]# history
+    1  yum install git -y
+    2  rpm - qa| grep git
+    3  cd/opt
+    4  cd/opt/
+    5  cd /opt/
+    6  ls
+    7  cd
+    8  cd ansible-demo
+    9  mkdir ansible-demo
+   10  cd ansible-demo
+   11  ls
+   12  cd opt
+   13  cd
+   14  cd opt
+   15  cd /opt/
+   16  cd
+   17  cd github
+   18  mkdir github
+   19  cd github
+   20  git clone https://github.com/krunalishah/27012019.git
+   21  ls
+   22  cd
+   23  cd ansible-demo/
+   24  mkdir gitdemo
+   25  cd gitdemo/
+   26  git clone https://github.com/krunalishah/27012019.git
+   27  ls
+   28  mkdir 02022019
+   29  cd 02022019/
+   30  pwd
+   31  cd..
+   32  cd
+   33  ls
+   34  ls -lrt
+   35  rm -rf github/
+   36  ls -lrt
+   37  cd ans
+   38  cd ansible-demo/
+   39  ls -lrt
+   40  cd gitdemo/
+   41  ls -lrt
+   42  cd 02022019/
+   43  ym -install tree -y
+   44  cd opt
+   45  cd opt\
+   46  cd /opt
+   47  tree
+   48  ym - install tree -y
+   49  ym -install tree -y
+   50  yum install tree -y
+   51  tree
+   52  pwd
+   53  ll
+   54  ls -lrt
+   55  cd
+   56  ls -lrt
+   57  mv ansible-demo/ /opt
+   58  cd /opt
+   59  ll
+   60  tree
+   61  cd ansible-demo/gitdemo/02022019/
+   62  pwd
+   63  ll
+   64  pwd
+   65  cd /etc/yum.repos.d/
+   66  ll
+   67  tree
+   68  vi ansible.repo
+   69  yum update
+   70  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   71  yum install ansible -y
+   72  ansible --version
+   73  tree
+   74  ansible --version
+   75  cd /etc/ansible/
+   76  ll
+   77  mv hosts hosts.original
+   78  ll
+   79  touch hosts
+   80  ll
+   81  pwd
+   82  vi hosts
+   83  less hosts
+   84  cat hosts
+   85  cd /root/.ssh
+   86  vi server1.pm
+   87  vi server1.pem
+   88  ssh -i server1.pem ec2-user@172.31.43.178
+   89  chmod 600 server1.pem
+   90  vi server1.pm
+   91  cd /etc/ansible/
+   92  ll
+   93  vi hosts
+   94  cd /root/.ssh/
+   95  ll
+   96  chmod 600 server1.pem
+   97  ssh -i server1.pem 172.31.43.178
+   98  cd /etc/ansible/
+   99  vi hosts
+  100  cd /root/.ssh/
+  101  ssh -i server1.pem 172.31.43.178
+  102  ansible all -m ping
+  103  ssh -i server1.pem ec2-user@172.31.43.178
+  104  ansible all -m raw -a 'sudo uptime'
+  105  ll
+  106  history
+
